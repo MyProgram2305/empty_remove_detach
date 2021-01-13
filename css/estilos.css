@@ -1,0 +1,27 @@
+img{
+    margin-left: 900px;    
+}
+.fondo{
+    background: #002233;
+    color: white;
+    text-align: center;
+}
+button{
+    background: yellow;
+}
+.titulo{
+   font-size: 25px;
+   font-style: italic;
+   color: red;
+}
+.subtitulo{
+    font-size: 20px;
+   font-weight: lighter;
+   
+}
+.sub{
+    font: lighter 19px arial;
+}
+p{
+    font-family: sans-serif;
+}

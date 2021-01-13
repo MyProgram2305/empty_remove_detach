@@ -1,0 +1,57 @@
+<!--
+Pablo Miguel Velasco Garcia 4°H	
+-->
+<html>
+	<head>
+		<title>Actividad 2</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<script src="js/jquery-3.4.1.min.js"></script>
+    </head>
+	<body class="fondo">
+		<h1 class="titulo">Quita los textos con que se maquen en la variable</h1>
+			<div>
+			<h2 class="subtitulo">FUNCION .DETACH()</h2>
+			<h4 class="sub">Significado:</h4>    	
+			<p>
+                Los tres sirven para lo mismo, borrar un texto con con una funtion
+            </p>
+			<p id="text1">ESTO SE VA A QUITAR CON DETACH</p>
+			<button id="btn1">SE VA A QUITAR CON DETACH</button>
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$("#btn1").click(function(){
+					$("#text1").detach();
+				});
+			});
+			</script>
+		</div>
+	<div>
+	<h2 class="subtitulo">FUNCION .TEXT()</h2>
+	<p id="text2"> ESTO SE VA A QUITAR CON REMOVE</p>
+	<button id="btn2">SE VA A QUITAR CON REMOVE</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btn2").click(function(){
+				$("#text2").remove();
+			});
+		});
+		</script>
+    </div>
+    <div>
+    <h2 class="subtitulo">FUNCION .TEXT()</h2>
+	<p id="text3">ESTO SE VA A QUITAR CON EMPTY</p>
+	<button id="btn3">SE VA A QUITAR CON EMPTY</button>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btn3").click(function(){
+				$("#text3").empty();
+			});
+		});
+		</script>
+    </div>
+    
+	</script>
+	</body>
+	<br><br><br><br><br><br><br>
+	<img src="img/taco.jpg" width="50">
+</html>
